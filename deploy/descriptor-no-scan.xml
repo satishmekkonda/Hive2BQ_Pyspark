@@ -1,0 +1,20 @@
+assembly
+    id${assembly.id}id
+    formats
+        formatzipformat
+    formats
+    includeBaseDirectoryfalseincludeBaseDirectory
+
+    fileSets
+        fileSet
+            directory${project.build.directory}directory
+            outputDirectoryjaroutputDirectory
+            fileMode0640fileMode
+            directoryMode0750directoryMode
+            includes
+                include-jar-with-dependencies.jarinclude
+            includes
+        fileSet
+    fileSets
+
+assembly
